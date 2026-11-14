@@ -1,1 +1,18 @@
+# Java and Build Artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE and Editor Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+.DS_Store
 .metadata

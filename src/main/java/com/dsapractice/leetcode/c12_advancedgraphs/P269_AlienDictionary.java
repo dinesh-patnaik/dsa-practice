@@ -1,0 +1,16 @@
+package com.dsapractice.leetcode.c12_advancedgraphs;
+
+/**
+ * [269] AlienDictionary
+ * Difficulty: Hard
+ * Source: https://leetcode.com/problems/alien-dictionary/
+ */
+public class P269_AlienDictionary {
+
+    public static class Solution {
+        public String alienOrder(String[] words) {
+            // TODO: Implement solution
+            return "";
+        }
+    }
+}

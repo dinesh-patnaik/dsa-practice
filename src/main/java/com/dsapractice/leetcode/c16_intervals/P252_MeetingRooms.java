@@ -1,0 +1,16 @@
+package com.dsapractice.leetcode.c16_intervals;
+
+/**
+ * [252] MeetingRooms
+ * Difficulty: Easy
+ * Source: https://leetcode.com/problems/meeting-rooms/
+ */
+public class P252_MeetingRooms {
+
+    public static class Solution {
+        public boolean canAttendMeetings(int[][] intervals) {
+            // TODO: Implement solution
+            return false;
+        }
+    }
+}
