@@ -1,10 +1,10 @@
 # LeetCode Curated Learning Roadmap (Ordered by Topic Priority)
 
 ### 📊 Progress Summary
-- **Total Problems:** 76
-- **Completed (Done):** 2 ✅
-- **Remaining (To Do):** 74 ⏳
-- **Completion Rate:** 2.6%
+- **Total Problems:** 77
+- **Completed (Done):** 1 ✅
+- **Remaining (To Do):** 76 ⏳
+- **Completion Rate:** 1.3%
 
 > **Tip:** Change `* Status: To Do` to `* Status: Done` in the problem's Java file header comment. This dashboard refreshes automatically the next time you run any problem.
 
@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Topic / Stage | Solution Link | Unit Test Link | Status |
 |:---|:---|:---:|:---|:---|:---|:---:|
-| 1 | [TwoSum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`c01_arrays`](src/main/java/com/dsapractice/leetcode/c01_arrays/P1_TwoSum.java) | [Test](src/test/java/com/dsapractice/leetcode/c01_arrays/P1_TwoSumTest.java) | ✅ Done |
+| 1 | [TwoSum](https://leetcode.com/problems/two-sum/) | Easy | Arrays & Hashing | [`c01_arrays`](src/main/java/com/dsapractice/leetcode/c01_arrays/P1_TwoSum.java) | [Test](src/test/java/com/dsapractice/leetcode/c01_arrays/P1_TwoSumTest.java) | ⏳ To Do |
 | 49 | [GroupAnagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Arrays & Hashing | [`c01_arrays`](src/main/java/com/dsapractice/leetcode/c01_arrays/P49_GroupAnagrams.java) | [Test](src/test/java/com/dsapractice/leetcode/c01_arrays/P49_GroupAnagramsTest.java) | ⏳ To Do |
 | 128 | [LongestConsecutiveSequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | Arrays & Hashing | [`c01_arrays`](src/main/java/com/dsapractice/leetcode/c01_arrays/P128_LongestConsecutiveSequence.java) | [Test](src/test/java/com/dsapractice/leetcode/c01_arrays/P128_LongestConsecutiveSequenceTest.java) | ⏳ To Do |
 | 217 | [ContainsDuplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Arrays & Hashing | [`c01_arrays`](src/main/java/com/dsapractice/leetcode/c01_arrays/P217_ContainsDuplicate.java) | [Test](src/test/java/com/dsapractice/leetcode/c01_arrays/P217_ContainsDuplicateTest.java) | ⏳ To Do |
@@ -36,7 +36,7 @@
 | 23 | [MergeKSortedLists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | Linked List | [`c06_linkedlist`](src/main/java/com/dsapractice/leetcode/c06_linkedlist/P23_MergeKSortedLists.java) | [Test](src/test/java/com/dsapractice/leetcode/c06_linkedlist/P23_MergeKSortedListsTest.java) | ⏳ To Do |
 | 141 | [LinkedListCycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | Linked List | [`c06_linkedlist`](src/main/java/com/dsapractice/leetcode/c06_linkedlist/P141_LinkedListCycle.java) | [Test](src/test/java/com/dsapractice/leetcode/c06_linkedlist/P141_LinkedListCycleTest.java) | ⏳ To Do |
 | 143 | [ReorderList](https://leetcode.com/problems/reorder-list/) | Medium | Linked List | [`c06_linkedlist`](src/main/java/com/dsapractice/leetcode/c06_linkedlist/P143_ReorderList.java) | [Test](src/test/java/com/dsapractice/leetcode/c06_linkedlist/P143_ReorderListTest.java) | ⏳ To Do |
-| 206 | [ReverseLinkedList](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | [`c06_linkedlist`](src/main/java/com/dsapractice/leetcode/c06_linkedlist/P206_ReverseLinkedList.java) | [Test](src/test/java/com/dsapractice/leetcode/c06_linkedlist/P206_ReverseLinkedListTest.java) | ✅ Done |
+| 206 | [ReverseLinkedList](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | [`c06_linkedlist`](src/main/java/com/dsapractice/leetcode/c06_linkedlist/P206_ReverseLinkedList.java) | [Test](src/test/java/com/dsapractice/leetcode/c06_linkedlist/P206_ReverseLinkedListTest.java) | ⏳ To Do |
 | 98 | [ValidateBinarySearchTree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | Trees | [`c07_trees`](src/main/java/com/dsapractice/leetcode/c07_trees/P98_ValidateBinarySearchTree.java) | [Test](src/test/java/com/dsapractice/leetcode/c07_trees/P98_ValidateBinarySearchTreeTest.java) | ⏳ To Do |
 | 100 | [SameTree](https://leetcode.com/problems/same-tree/) | Easy | Trees | [`c07_trees`](src/main/java/com/dsapractice/leetcode/c07_trees/P100_SameTree.java) | [Test](src/test/java/com/dsapractice/leetcode/c07_trees/P100_SameTreeTest.java) | ⏳ To Do |
 | 102 | [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | Trees | [`c07_trees`](src/main/java/com/dsapractice/leetcode/c07_trees/P102_BinaryTreeLevelOrderTraversal.java) | [Test](src/test/java/com/dsapractice/leetcode/c07_trees/P102_BinaryTreeLevelOrderTraversalTest.java) | ⏳ To Do |
@@ -84,7 +84,8 @@
 | 54 | [SpiralMatrix](https://leetcode.com/problems/spiral-matrix/) | Medium | Math & Geometry | [`c17_math_geometry`](src/main/java/com/dsapractice/leetcode/c17_math_geometry/P54_SpiralMatrix.java) | [Test](src/test/java/com/dsapractice/leetcode/c17_math_geometry/P54_SpiralMatrixTest.java) | ⏳ To Do |
 | 73 | [SetMatrixZeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | Math & Geometry | [`c17_math_geometry`](src/main/java/com/dsapractice/leetcode/c17_math_geometry/P73_SetMatrixZeroes.java) | [Test](src/test/java/com/dsapractice/leetcode/c17_math_geometry/P73_SetMatrixZeroesTest.java) | ⏳ To Do |
 | 190 | [ReverseBits](https://leetcode.com/problems/reverse-bits/) | Easy | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P190_ReverseBits.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P190_ReverseBitsTest.java) | ⏳ To Do |
-| 191 | [NumberOf1Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P191_NumberOf1Bits.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P191_NumberOf1BitsTest.java) | ⏳ To Do |
+| 191 | [NumberOf1Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P191_NumberOf1Bits.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P191_NumberOf1BitsTest.java) | ✅ Done |
 | 268 | [MissingNumber](https://leetcode.com/problems/missing-number/) | Easy | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P268_MissingNumber.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P268_MissingNumberTest.java) | ⏳ To Do |
 | 338 | [CountingBits](https://leetcode.com/problems/counting-bits/) | Easy | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P338_CountingBits.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P338_CountingBitsTest.java) | ⏳ To Do |
 | 371 | [SumOfTwoIntegers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P371_SumOfTwoIntegers.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P371_SumOfTwoIntegersTest.java) | ⏳ To Do |
+| 477 | [TotalHammingDistance](https://leetcode.com/problems/total-hamming-distance/) | Medium | Bit Manipulation | [`c18_bit_manipulation`](src/main/java/com/dsapractice/leetcode/c18_bit_manipulation/P477_TotalHammingDistance.java) | [Test](src/test/java/com/dsapractice/leetcode/c18_bit_manipulation/P477_TotalHammingDistanceTest.java) | ⏳ To Do |
