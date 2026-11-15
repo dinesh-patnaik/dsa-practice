@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c18_bit_manipulation;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [477] TotalHammingDistance
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P477_TotalHammingDistance {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P477_TotalHammingDistance.class);
         Solution solution = new Solution();
         int[] nums = {4, 14, 2};
         var result = solution.totalHammingDistance(nums);

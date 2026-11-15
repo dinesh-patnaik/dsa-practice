@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c08_tries;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [211] DesignAddAndSearchWordsDataStructure
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P211_DesignAddAndSearchWordsDataStructure {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P211_DesignAddAndSearchWordsDataStructure.class);
         Solution solution = new Solution();
         String word = "";
         solution.addWord(word);

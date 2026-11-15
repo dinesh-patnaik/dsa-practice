@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c05_binarysearch;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [704] BinarySearch
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P704_BinarySearch {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P704_BinarySearch.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         int target = 0;

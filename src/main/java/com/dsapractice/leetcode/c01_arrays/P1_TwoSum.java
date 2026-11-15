@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c01_arrays;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [1] TwoSum
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P1_TwoSum {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P1_TwoSum.class);
         Solution solution = new Solution();
         int[] nums = {2, 7, 11, 15};
         int target = 9;

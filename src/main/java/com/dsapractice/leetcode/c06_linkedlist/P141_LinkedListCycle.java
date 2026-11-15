@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c06_linkedlist;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.ListNode;
 
 /**
@@ -20,7 +18,6 @@ public class P141_LinkedListCycle {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P141_LinkedListCycle.class);
         Solution solution = new Solution();
         ListNode head = null;
         var result = solution.hasCycle(head);

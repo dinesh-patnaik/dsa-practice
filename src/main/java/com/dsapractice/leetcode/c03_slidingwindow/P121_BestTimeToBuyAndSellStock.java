@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c03_slidingwindow;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [121] BestTimeToBuyAndSellStock
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P121_BestTimeToBuyAndSellStock {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P121_BestTimeToBuyAndSellStock.class);
         Solution solution = new Solution();
         int[] prices = new int[]{};
         var result = solution.maxProfit(prices);

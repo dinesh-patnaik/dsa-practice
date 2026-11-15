@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [300] LongestIncreasingSubsequence
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P300_LongestIncreasingSubsequence {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P300_LongestIncreasingSubsequence.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         var result = solution.lengthOfLIS(nums);

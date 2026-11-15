@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c02_twopointers;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [11] ContainerWithMostWater
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P11_ContainerWithMostWater {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P11_ContainerWithMostWater.class);
         Solution solution = new Solution();
         int[] height = new int[]{};
         var result = solution.maxArea(height);

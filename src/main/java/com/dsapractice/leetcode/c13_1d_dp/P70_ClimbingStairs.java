@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [70] ClimbingStairs
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P70_ClimbingStairs {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P70_ClimbingStairs.class);
         Solution solution = new Solution();
         int n = 0;
         var result = solution.climbStairs(n);

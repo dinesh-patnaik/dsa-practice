@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c04_stack;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [20] ValidParentheses
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P20_ValidParentheses {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P20_ValidParentheses.class);
         Solution solution = new Solution();
         String s = "";
         var result = solution.isValid(s);

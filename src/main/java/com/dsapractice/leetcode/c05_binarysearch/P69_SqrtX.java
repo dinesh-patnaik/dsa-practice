@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c05_binarysearch;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [69] Sqrt(x)
  * Difficulty: Easy
@@ -19,7 +17,6 @@ public class P69_SqrtX {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P69_SqrtX.class);
         Solution solution = new Solution();
         int x = 8;
         int result = solution.mySqrt(x);

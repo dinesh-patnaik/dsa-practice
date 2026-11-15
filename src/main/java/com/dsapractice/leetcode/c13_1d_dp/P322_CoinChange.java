@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [322] CoinChange
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P322_CoinChange {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P322_CoinChange.class);
         Solution solution = new Solution();
         int[] coins = new int[]{};
         int amount = 0;

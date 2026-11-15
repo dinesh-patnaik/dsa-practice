@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [5] LongestPalindromicSubstring
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P5_LongestPalindromicSubstring {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P5_LongestPalindromicSubstring.class);
         Solution solution = new Solution();
         String s = "";
         var result = solution.longestPalindrome(s);

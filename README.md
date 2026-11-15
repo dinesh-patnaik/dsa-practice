@@ -50,7 +50,7 @@ Common LeetCode data structure utilities are located in [`com.dsapractice.leetco
 
 ## 🚀 Working on Problems
 
-1. Pick your next target in [TRACKER.md](file:///Users/dinesh/git/My%20Coding%20Workspace/dsa-practice/TRACKER.md).
+1. Pick your next target in the live dashboard (`./run.sh TrackerDashboard`).
 2. Open the solution file (e.g., `P15_ThreeSum.java` in `c02_twopointers`).
 3. Write your implementation inside `public static class Solution`.
 4. Open the matching test in `src/test/java/com/dsapractice/leetcode/c02_twopointers/P15_ThreeSumTest.java`, remove `@Disabled`, and test:
@@ -61,7 +61,7 @@ Common LeetCode data structure utilities are located in [`com.dsapractice.leetco
    ```bash
    mvn test
    ```
-6. When a problem is solved, change `Status: To Do` to `Status: Done` in its header comment. [TRACKER.md](file:///Users/dinesh/git/My%20Coding%20Workspace/dsa-practice/TRACKER.md) refreshes automatically the next time you run any problem (`main()` calls `TrackerAutoSync.sync(...)`), so there is nothing to run manually.
+6. When a problem is solved, change `Status: To Do` to `Status: Done` in its header comment. The dashboard reads the Status lines straight from the code every few seconds, so there is nothing to sync or regenerate.
 
 ---
 
@@ -75,7 +75,7 @@ To scaffold any problem beyond the initial Blind 75 set:
 ```bash
 ./new-problem.sh 567 PermutationInString c03_slidingwindow Medium
 ```
-This automatically creates the solution template, test template, and appends a row to [TRACKER.md](file:///Users/dinesh/git/My%20Coding%20Workspace/dsa-practice/TRACKER.md).
+This creates the solution template and test template; the new problem shows up in the dashboard automatically.
 
 ---
 

@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c07_trees;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
@@ -20,7 +18,6 @@ public class P572_SubtreeOfAnotherTree {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P572_SubtreeOfAnotherTree.class);
         Solution solution = new Solution();
         TreeNode root = null;
         TreeNode subRoot = null;

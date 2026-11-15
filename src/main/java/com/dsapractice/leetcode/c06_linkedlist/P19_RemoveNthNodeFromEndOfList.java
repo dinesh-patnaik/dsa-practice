@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c06_linkedlist;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.ListNode;
 
 /**
@@ -20,7 +18,6 @@ public class P19_RemoveNthNodeFromEndOfList {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P19_RemoveNthNodeFromEndOfList.class);
         Solution solution = new Solution();
         ListNode head = null;
         int n = 0;

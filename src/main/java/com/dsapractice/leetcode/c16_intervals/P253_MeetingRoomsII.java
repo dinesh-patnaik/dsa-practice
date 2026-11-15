@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c16_intervals;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [253] MeetingRoomsII
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P253_MeetingRoomsII {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P253_MeetingRoomsII.class);
         Solution solution = new Solution();
         int[][] intervals = new int[][]{};
         var result = solution.minMeetingRooms(intervals);

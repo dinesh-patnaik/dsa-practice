@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c12_advancedgraphs;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [269] AlienDictionary
  * Difficulty: Hard
@@ -18,7 +16,6 @@ public class P269_AlienDictionary {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P269_AlienDictionary.class);
         Solution solution = new Solution();
         String[] words = new String[]{};
         var result = solution.alienOrder(words);

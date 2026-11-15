@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Quick Runner for any LeetCode problem by name or class path
-# TRACKER.md is synced automatically by the Maven build (TrackerAutoSync).
+# Progress dashboard: ./run.sh TrackerDashboard
 # Usage: ./run.sh P69_SqrtX
 #    or: ./run.sh com.dsapractice.leetcode.c05_binarysearch.P69_SqrtX
 

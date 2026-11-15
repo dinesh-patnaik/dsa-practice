@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c01_arrays;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [128] LongestConsecutiveSequence
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P128_LongestConsecutiveSequence {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P128_LongestConsecutiveSequence.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         var result = solution.longestConsecutive(nums);

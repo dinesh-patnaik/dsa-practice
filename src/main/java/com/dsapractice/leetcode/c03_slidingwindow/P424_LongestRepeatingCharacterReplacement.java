@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c03_slidingwindow;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [424] LongestRepeatingCharacterReplacement
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P424_LongestRepeatingCharacterReplacement {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P424_LongestRepeatingCharacterReplacement.class);
         Solution solution = new Solution();
         String s = "";
         int k = 0;

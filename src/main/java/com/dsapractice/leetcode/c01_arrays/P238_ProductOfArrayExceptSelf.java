@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c01_arrays;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [238] ProductOfArrayExceptSelf
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P238_ProductOfArrayExceptSelf {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P238_ProductOfArrayExceptSelf.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         var result = solution.productExceptSelf(nums);

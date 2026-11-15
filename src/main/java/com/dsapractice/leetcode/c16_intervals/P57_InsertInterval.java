@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c16_intervals;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [57] InsertInterval
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P57_InsertInterval {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P57_InsertInterval.class);
         Solution solution = new Solution();
         int[][] intervals = new int[][]{};
         int[] newInterval = new int[]{};

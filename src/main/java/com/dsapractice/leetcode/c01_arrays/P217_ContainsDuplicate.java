@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c01_arrays;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [217] ContainsDuplicate
  * Difficulty: Easy
@@ -18,7 +16,6 @@ public class P217_ContainsDuplicate {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P217_ContainsDuplicate.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         var result = solution.containsDuplicate(nums);

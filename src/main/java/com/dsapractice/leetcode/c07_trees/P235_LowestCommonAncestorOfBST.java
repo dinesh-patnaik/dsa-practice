@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c07_trees;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
@@ -20,7 +18,6 @@ public class P235_LowestCommonAncestorOfBST {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P235_LowestCommonAncestorOfBST.class);
         Solution solution = new Solution();
         TreeNode root = null;
         TreeNode p = null;

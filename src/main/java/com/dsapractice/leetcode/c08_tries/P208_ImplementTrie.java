@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c08_tries;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [208] ImplementTrie
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P208_ImplementTrie {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P208_ImplementTrie.class);
         Solution solution = new Solution();
         String word = "";
         solution.insert(word);

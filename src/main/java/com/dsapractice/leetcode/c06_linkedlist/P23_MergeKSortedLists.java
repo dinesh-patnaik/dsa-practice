@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c06_linkedlist;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.ListNode;
 
 /**
@@ -20,7 +18,6 @@ public class P23_MergeKSortedLists {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P23_MergeKSortedLists.class);
         Solution solution = new Solution();
         ListNode[] lists = new ListNode[]{};
         var result = solution.mergeKLists(lists);

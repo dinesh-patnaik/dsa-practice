@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c01_arrays;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [347] TopKFrequentElements
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P347_TopKFrequentElements {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P347_TopKFrequentElements.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         int k = 0;

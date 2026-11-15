@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c10_backtracking;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [39] CombinationSum
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P39_CombinationSum {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P39_CombinationSum.class);
         Solution solution = new Solution();
         int[] candidates = new int[]{};
         int target = 0;

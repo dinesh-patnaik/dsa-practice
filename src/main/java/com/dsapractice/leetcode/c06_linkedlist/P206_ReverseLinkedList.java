@@ -1,6 +1,5 @@
 package com.dsapractice.leetcode.c06_linkedlist;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
 import com.dsapractice.leetcode.common.ListNode;
 
 /**
@@ -19,7 +18,6 @@ public class P206_ReverseLinkedList {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P206_ReverseLinkedList.class);
         Solution solution = new Solution();
         ListNode head = ListNode.of(1, 2, 3, 4, 5);
         ListNode reversed = solution.reverseList(head);

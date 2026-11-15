@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [213] HouseRobberII
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P213_HouseRobberII {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P213_HouseRobberII.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         var result = solution.rob(nums);

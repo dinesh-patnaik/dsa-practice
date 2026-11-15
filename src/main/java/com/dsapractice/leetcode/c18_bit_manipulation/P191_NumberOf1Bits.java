@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c18_bit_manipulation;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [191] NumberOf1Bits
  * Difficulty: Easy
@@ -24,7 +22,6 @@ public class P191_NumberOf1Bits {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P191_NumberOf1Bits.class);
         Solution solution = new Solution();
         int n = 6;
         var result = solution.hammingWeight(n);

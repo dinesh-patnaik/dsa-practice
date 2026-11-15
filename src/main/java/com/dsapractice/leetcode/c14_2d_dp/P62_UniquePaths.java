@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c14_2d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [62] UniquePaths
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P62_UniquePaths {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P62_UniquePaths.class);
         Solution solution = new Solution();
         int m = 0;
         int n = 0;

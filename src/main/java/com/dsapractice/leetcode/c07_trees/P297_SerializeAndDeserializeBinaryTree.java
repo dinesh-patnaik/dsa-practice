@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c07_trees;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
@@ -20,7 +18,6 @@ public class P297_SerializeAndDeserializeBinaryTree {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P297_SerializeAndDeserializeBinaryTree.class);
         Solution solution = new Solution();
         TreeNode root = null;
         var result = solution.serialize(root);

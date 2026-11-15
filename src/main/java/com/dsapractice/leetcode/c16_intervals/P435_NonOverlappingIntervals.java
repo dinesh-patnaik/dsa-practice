@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c16_intervals;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [435] NonOverlappingIntervals
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P435_NonOverlappingIntervals {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P435_NonOverlappingIntervals.class);
         Solution solution = new Solution();
         int[][] intervals = new int[][]{};
         var result = solution.eraseOverlapIntervals(intervals);

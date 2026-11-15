@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c03_slidingwindow;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [76] MinimumWindowSubstring
  * Difficulty: Hard
@@ -18,7 +16,6 @@ public class P76_MinimumWindowSubstring {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P76_MinimumWindowSubstring.class);
         Solution solution = new Solution();
         String s = "";
         String t = "";

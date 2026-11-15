@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c07_trees;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
@@ -20,7 +18,6 @@ public class P98_ValidateBinarySearchTree {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P98_ValidateBinarySearchTree.class);
         Solution solution = new Solution();
         TreeNode root = null;
         var result = solution.isValidBST(root);

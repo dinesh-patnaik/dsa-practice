@@ -1,7 +1,5 @@
 package com.dsapractice.leetcode.c13_1d_dp;
 
-import com.dsapractice.leetcode.common.TrackerAutoSync;
-
 /**
  * [139] WordBreak
  * Difficulty: Medium
@@ -18,7 +16,6 @@ public class P139_WordBreak {
     }
 
     public static void main(String[] args) {
-        TrackerAutoSync.sync(P139_WordBreak.class);
         Solution solution = new Solution();
         String s = "";
         java.util.List<String> wordDict = new java.util.ArrayList<>();
