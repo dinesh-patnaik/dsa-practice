@@ -16,7 +16,9 @@ public class P79_WordSearch {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        char[][] board = new char[][]{};
+        String word = "";
+        var result = solution.exist(board, word);
+        System.out.println("Result: " + result);
     }
 }

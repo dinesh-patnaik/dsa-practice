@@ -18,7 +18,10 @@ public class P235_LowestCommonAncestorOfBST {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        TreeNode root = null;
+        TreeNode p = null;
+        TreeNode q = null;
+        var result = solution.lowestCommonAncestor(root, p, q);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,9 @@ public class P704_BinarySearch {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] nums = new int[]{};
+        int target = 0;
+        var result = solution.search(nums, target);
+        System.out.println("Result: " + result);
     }
 }

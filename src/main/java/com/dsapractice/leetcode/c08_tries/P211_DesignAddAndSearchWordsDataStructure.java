@@ -16,7 +16,8 @@ public class P211_DesignAddAndSearchWordsDataStructure {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String word = "";
+        solution.addWord(word);
+        System.out.println("Executed addWord successfully.");
     }
 }

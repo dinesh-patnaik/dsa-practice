@@ -18,7 +18,9 @@ public class P230_KthSmallestElementInBST {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        TreeNode root = null;
+        int k = 0;
+        var result = solution.kthSmallest(root, k);
+        System.out.println("Result: " + result);
     }
 }

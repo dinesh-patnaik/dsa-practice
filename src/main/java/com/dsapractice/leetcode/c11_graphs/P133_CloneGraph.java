@@ -16,7 +16,8 @@ public class P133_CloneGraph {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        Object node = null;
+        var result = solution.cloneGraph(node);
+        System.out.println("Result: " + result);
     }
 }

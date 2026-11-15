@@ -16,7 +16,9 @@ public class P424_LongestRepeatingCharacterReplacement {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String s = "";
+        int k = 0;
+        var result = solution.characterReplacement(s, k);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,9 @@ public class P57_InsertInterval {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] intervals = new int[][]{};
+        int[] newInterval = new int[]{};
+        var result = solution.insert(intervals, newInterval);
+        System.out.println("Result: " + java.util.Arrays.deepToString(new Object[]{result}));
     }
 }

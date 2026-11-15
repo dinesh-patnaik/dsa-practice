@@ -16,7 +16,9 @@ public class P371_SumOfTwoIntegers {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int a = 0;
+        int b = 0;
+        var result = solution.getSum(a, b);
+        System.out.println("Result: " + result);
     }
 }

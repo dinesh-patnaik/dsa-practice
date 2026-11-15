@@ -18,7 +18,9 @@ public class P19_RemoveNthNodeFromEndOfList {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        ListNode head = null;
+        int n = 0;
+        var result = solution.removeNthFromEnd(head, n);
+        System.out.println("Result: " + result);
     }
 }

@@ -18,7 +18,8 @@ public class P297_SerializeAndDeserializeBinaryTree {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        TreeNode root = null;
+        var result = solution.serialize(root);
+        System.out.println("Result: " + result);
     }
 }

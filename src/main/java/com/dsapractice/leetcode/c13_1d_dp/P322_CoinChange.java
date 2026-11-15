@@ -16,7 +16,9 @@ public class P322_CoinChange {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] coins = new int[]{};
+        int amount = 0;
+        var result = solution.coinChange(coins, amount);
+        System.out.println("Result: " + result);
     }
 }

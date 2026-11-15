@@ -18,7 +18,9 @@ public class P21_MergeTwoSortedLists {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        ListNode list1 = null;
+        ListNode list2 = null;
+        var result = solution.mergeTwoLists(list1, list2);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,8 @@ public class P49_GroupAnagrams {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String[] strs = new String[]{};
+        var result = solution.groupAnagrams(strs);
+        System.out.println("Result: " + result);
     }
 }

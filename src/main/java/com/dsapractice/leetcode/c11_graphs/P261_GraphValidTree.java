@@ -16,7 +16,9 @@ public class P261_GraphValidTree {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int n = 0;
+        int[][] edges = new int[][]{};
+        var result = solution.validTree(n, edges);
+        System.out.println("Result: " + result);
     }
 }

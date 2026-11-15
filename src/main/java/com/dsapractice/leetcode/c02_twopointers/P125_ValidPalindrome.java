@@ -16,7 +16,8 @@ public class P125_ValidPalindrome {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String s = "";
+        var result = solution.isPalindrome(s);
+        System.out.println("Result: " + result);
     }
 }

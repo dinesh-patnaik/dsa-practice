@@ -16,7 +16,8 @@ public class P73_SetMatrixZeroes {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] matrix = new int[][]{};
+        solution.setZeroes(matrix);
+        System.out.println("Executed setZeroes successfully.");
     }
 }

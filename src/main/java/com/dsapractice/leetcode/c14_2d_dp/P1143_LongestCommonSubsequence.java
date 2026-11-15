@@ -16,7 +16,9 @@ public class P1143_LongestCommonSubsequence {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String text1 = "";
+        String text2 = "";
+        var result = solution.longestCommonSubsequence(text1, text2);
+        System.out.println("Result: " + result);
     }
 }

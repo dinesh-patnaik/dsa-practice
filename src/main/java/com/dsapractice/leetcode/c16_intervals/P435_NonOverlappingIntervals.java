@@ -16,7 +16,8 @@ public class P435_NonOverlappingIntervals {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] intervals = new int[][]{};
+        var result = solution.eraseOverlapIntervals(intervals);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,8 @@ public class P11_ContainerWithMostWater {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] height = new int[]{};
+        var result = solution.maxArea(height);
+        System.out.println("Result: " + result);
     }
 }

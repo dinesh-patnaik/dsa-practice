@@ -18,7 +18,8 @@ public class P143_ReorderList {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        ListNode head = null;
+        solution.reorderList(head);
+        System.out.println("Executed reorderList successfully.");
     }
 }

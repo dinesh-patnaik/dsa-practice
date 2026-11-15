@@ -16,7 +16,9 @@ public class P76_MinimumWindowSubstring {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String s = "";
+        String t = "";
+        var result = solution.minWindow(s, t);
+        System.out.println("Result: " + result);
     }
 }

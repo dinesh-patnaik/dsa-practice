@@ -16,7 +16,8 @@ public class P268_MissingNumber {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] nums = new int[]{};
+        var result = solution.missingNumber(nums);
+        System.out.println("Result: " + result);
     }
 }

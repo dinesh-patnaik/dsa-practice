@@ -18,7 +18,8 @@ public class P141_LinkedListCycle {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        ListNode head = null;
+        var result = solution.hasCycle(head);
+        System.out.println("Result: " + result);
     }
 }

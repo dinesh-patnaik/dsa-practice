@@ -18,7 +18,8 @@ public class P124_BinaryTreeMaximumPathSum {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        TreeNode root = null;
+        var result = solution.maxPathSum(root);
+        System.out.println("Result: " + result);
     }
 }

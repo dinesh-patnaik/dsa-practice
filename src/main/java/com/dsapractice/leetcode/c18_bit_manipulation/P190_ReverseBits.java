@@ -16,7 +16,8 @@ public class P190_ReverseBits {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int n = 0;
+        var result = solution.reverseBits(n);
+        System.out.println("Result: " + result);
     }
 }

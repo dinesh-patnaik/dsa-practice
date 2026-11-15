@@ -16,7 +16,8 @@ public class P191_NumberOf1Bits {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int n = 0;
+        var result = solution.hammingWeight(n);
+        System.out.println("Result: " + result);
     }
 }

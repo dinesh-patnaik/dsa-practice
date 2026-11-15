@@ -16,7 +16,8 @@ public class P153_FindMinimumInRotatedSortedArray {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] nums = new int[]{};
+        var result = solution.findMin(nums);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,8 @@ public class P48_RotateImage {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] matrix = new int[][]{};
+        solution.rotate(matrix);
+        System.out.println("Executed rotate successfully.");
     }
 }

@@ -16,7 +16,8 @@ public class P417_PacificAtlanticWaterFlow {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] heights = new int[][]{};
+        var result = solution.pacificAtlantic(heights);
+        System.out.println("Result: " + result);
     }
 }

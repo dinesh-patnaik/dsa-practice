@@ -16,7 +16,9 @@ public class P139_WordBreak {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String s = "";
+        java.util.List<String> wordDict = new java.util.ArrayList<>();
+        var result = solution.wordBreak(s, wordDict);
+        System.out.println("Result: " + result);
     }
 }

@@ -18,7 +18,8 @@ public class P23_MergeKSortedLists {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        ListNode[] lists = new ListNode[]{};
+        var result = solution.mergeKLists(lists);
+        System.out.println("Result: " + result);
     }
 }

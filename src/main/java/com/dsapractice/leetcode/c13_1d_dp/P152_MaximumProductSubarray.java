@@ -16,7 +16,8 @@ public class P152_MaximumProductSubarray {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] nums = new int[]{};
+        var result = solution.maxProduct(nums);
+        System.out.println("Result: " + result);
     }
 }

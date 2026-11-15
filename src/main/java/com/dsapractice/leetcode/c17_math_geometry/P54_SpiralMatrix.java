@@ -16,7 +16,8 @@ public class P54_SpiralMatrix {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[][] matrix = new int[][]{};
+        var result = solution.spiralOrder(matrix);
+        System.out.println("Result: " + result);
     }
 }

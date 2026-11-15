@@ -18,7 +18,9 @@ public class P100_SameTree {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        TreeNode p = null;
+        TreeNode q = null;
+        var result = solution.isSameTree(p, q);
+        System.out.println("Result: " + result);
     }
 }

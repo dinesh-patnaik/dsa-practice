@@ -16,7 +16,8 @@ public class P269_AlienDictionary {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        String[] words = new String[]{};
+        var result = solution.alienOrder(words);
+        System.out.println("Result: " + result);
     }
 }

@@ -16,7 +16,9 @@ public class P207_CourseSchedule {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int numCourses = 0;
+        int[][] prerequisites = new int[][]{};
+        var result = solution.canFinish(numCourses, prerequisites);
+        System.out.println("Result: " + result);
     }
 }

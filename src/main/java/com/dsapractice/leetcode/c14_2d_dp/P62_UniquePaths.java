@@ -16,7 +16,9 @@ public class P62_UniquePaths {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int m = 0;
+        int n = 0;
+        var result = solution.uniquePaths(m, n);
+        System.out.println("Result: " + result);
     }
 }

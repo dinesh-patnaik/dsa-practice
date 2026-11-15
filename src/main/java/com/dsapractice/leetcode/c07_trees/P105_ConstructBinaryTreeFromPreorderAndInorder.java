@@ -18,7 +18,9 @@ public class P105_ConstructBinaryTreeFromPreorderAndInorder {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
+        int[] preorder = new int[]{};
+        int[] inorder = new int[]{};
+        var result = solution.buildTree(preorder, inorder);
+        System.out.println("Result: " + result);
     }
 }
