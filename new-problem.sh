@@ -62,6 +62,12 @@ public class $CLASS_NAME {
     public static class Solution {
         // TODO: Paste or write LeetCode method signature here
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
+        // TODO: Call solution method and print result here
+    }
 }
 EOF
 

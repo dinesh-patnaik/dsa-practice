@@ -13,4 +13,10 @@ public class P191_NumberOf1Bits {
             return 0;
         }
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
+        // TODO: Call solution method and print result here
+    }
 }

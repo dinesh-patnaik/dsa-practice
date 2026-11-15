@@ -1,5 +1,6 @@
 package com.dsapractice.leetcode.c01_arrays;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,5 +23,13 @@ public class P1_TwoSum {
             }
             throw new IllegalArgumentException("No two sum solution");
         }
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = solution.twoSum(nums, target);
+        System.out.println("Output: " + Arrays.toString(result)); // [0, 1]
     }
 }

@@ -13,4 +13,10 @@ public class P49_GroupAnagrams {
             return java.util.Collections.emptyList();
         }
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
+        // TODO: Call solution method and print result here
+    }
 }
