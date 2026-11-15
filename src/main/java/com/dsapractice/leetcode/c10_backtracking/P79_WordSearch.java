@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c10_backtracking;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [79] WordSearch
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/word-search/
+ * Status: To Do
  */
 public class P79_WordSearch {
 
@@ -15,6 +18,7 @@ public class P79_WordSearch {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P79_WordSearch.class);
         Solution solution = new Solution();
         char[][] board = new char[][]{};
         String word = "";

@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c11_graphs;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [417] PacificAtlanticWaterFlow
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/pacific-atlantic-water-flow/
+ * Status: To Do
  */
 public class P417_PacificAtlanticWaterFlow {
 
@@ -15,6 +18,7 @@ public class P417_PacificAtlanticWaterFlow {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P417_PacificAtlanticWaterFlow.class);
         Solution solution = new Solution();
         int[][] heights = new int[][]{};
         var result = solution.pacificAtlantic(heights);

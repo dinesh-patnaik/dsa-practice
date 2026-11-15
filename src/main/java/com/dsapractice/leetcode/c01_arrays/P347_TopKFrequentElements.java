@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c01_arrays;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [347] TopKFrequentElements
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/top-k-frequent-elements/
+ * Status: To Do
  */
 public class P347_TopKFrequentElements {
 
@@ -15,6 +18,7 @@ public class P347_TopKFrequentElements {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P347_TopKFrequentElements.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         int k = 0;

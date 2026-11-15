@@ -1,11 +1,14 @@
 package com.dsapractice.leetcode.c06_linkedlist;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 import com.dsapractice.leetcode.common.ListNode;
 
 /**
  * [21] MergeTwoSortedLists
  * Difficulty: Easy
  * Source: https://leetcode.com/problems/merge-two-sorted-lists/
+ * Status: To Do
  */
 public class P21_MergeTwoSortedLists {
 
@@ -17,6 +20,7 @@ public class P21_MergeTwoSortedLists {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P21_MergeTwoSortedLists.class);
         Solution solution = new Solution();
         ListNode list1 = null;
         ListNode list2 = null;

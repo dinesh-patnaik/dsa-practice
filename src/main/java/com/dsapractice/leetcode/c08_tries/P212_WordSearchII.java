@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c08_tries;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [212] WordSearchII
  * Difficulty: Hard
  * Source: https://leetcode.com/problems/word-search-ii/
+ * Status: To Do
  */
 public class P212_WordSearchII {
 
@@ -15,6 +18,7 @@ public class P212_WordSearchII {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P212_WordSearchII.class);
         Solution solution = new Solution();
         char[][] board = new char[][]{};
         String[] words = new String[]{};

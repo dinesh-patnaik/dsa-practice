@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c01_arrays;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [242] ValidAnagram
  * Difficulty: Easy
  * Source: https://leetcode.com/problems/valid-anagram/
+ * Status: To Do
  */
 public class P242_ValidAnagram {
 
@@ -15,6 +18,7 @@ public class P242_ValidAnagram {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P242_ValidAnagram.class);
         Solution solution = new Solution();
         String s = "";
         String t = "";

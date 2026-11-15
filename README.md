@@ -61,6 +61,7 @@ Common LeetCode data structure utilities are located in [`com.dsapractice.leetco
    ```bash
    mvn test
    ```
+6. When a problem is solved, change `Status: To Do` to `Status: Done` in its header comment. [TRACKER.md](file:///Users/dinesh/git/My%20Coding%20Workspace/dsa-practice/TRACKER.md) refreshes automatically the next time you run any problem (`main()` calls `TrackerAutoSync.sync(...)`), so there is nothing to run manually.
 
 ---
 

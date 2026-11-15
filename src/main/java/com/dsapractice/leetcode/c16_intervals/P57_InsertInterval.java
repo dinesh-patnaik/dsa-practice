@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c16_intervals;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [57] InsertInterval
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/insert-interval/
+ * Status: To Do
  */
 public class P57_InsertInterval {
 
@@ -15,6 +18,7 @@ public class P57_InsertInterval {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P57_InsertInterval.class);
         Solution solution = new Solution();
         int[][] intervals = new int[][]{};
         int[] newInterval = new int[]{};

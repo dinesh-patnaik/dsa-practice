@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c17_math_geometry;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [48] RotateImage
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/rotate-image/
+ * Status: To Do
  */
 public class P48_RotateImage {
 
@@ -15,6 +18,7 @@ public class P48_RotateImage {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P48_RotateImage.class);
         Solution solution = new Solution();
         int[][] matrix = new int[][]{};
         solution.rotate(matrix);

@@ -1,5 +1,7 @@
 package com.dsapractice.leetcode.c01_arrays;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -8,6 +10,7 @@ import java.util.Map;
  * [1] TwoSum
  * Difficulty: Easy
  * Source: https://leetcode.com/problems/two-sum/
+ * Status: Done
  */
 public class P1_TwoSum {
 
@@ -26,6 +29,7 @@ public class P1_TwoSum {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P1_TwoSum.class);
         Solution solution = new Solution();
         int[] nums = {2, 7, 11, 15};
         int target = 9;

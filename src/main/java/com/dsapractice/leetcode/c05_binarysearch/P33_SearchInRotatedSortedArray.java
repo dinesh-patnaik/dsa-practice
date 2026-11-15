@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c05_binarysearch;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [33] SearchInRotatedSortedArray
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/search-in-rotated-sorted-array/
+ * Status: To Do
  */
 public class P33_SearchInRotatedSortedArray {
 
@@ -15,6 +18,7 @@ public class P33_SearchInRotatedSortedArray {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P33_SearchInRotatedSortedArray.class);
         Solution solution = new Solution();
         int[] nums = new int[]{};
         int target = 0;

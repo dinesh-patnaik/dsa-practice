@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c03_slidingwindow;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [76] MinimumWindowSubstring
  * Difficulty: Hard
  * Source: https://leetcode.com/problems/minimum-window-substring/
+ * Status: To Do
  */
 public class P76_MinimumWindowSubstring {
 
@@ -15,6 +18,7 @@ public class P76_MinimumWindowSubstring {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P76_MinimumWindowSubstring.class);
         Solution solution = new Solution();
         String s = "";
         String t = "";

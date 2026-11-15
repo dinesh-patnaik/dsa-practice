@@ -52,10 +52,13 @@ fi
 cat <<EOF > "$SRC_FILE"
 package com.dsapractice.leetcode.$CATEGORY;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [$PID] $NAME
  * Difficulty: $DIFFICULTY
  * Source: https://leetcode.com/problems/
+ * Status: To Do
  */
 public class $CLASS_NAME {
 
@@ -64,9 +67,9 @@ public class $CLASS_NAME {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync($CLASS_NAME.class);
         Solution solution = new Solution();
         System.out.println("Running " + solution.getClass().getEnclosingClass().getSimpleName() + "...");
-        // TODO: Call solution method and print result here
     }
 }
 EOF
@@ -94,9 +97,9 @@ class ${CLASS_NAME}Test {
 }
 EOF
 
-echo "| $PID | [$NAME](https://leetcode.com/problems/) | $DIFFICULTY | $CATEGORY | [Code]($SRC_FILE) | [Test]($TEST_FILE) | ⏳ Pending |" >> TRACKER.md
-
 echo "Created:"
 echo "  $SRC_FILE"
 echo "  $TEST_FILE"
-echo "  Appended to TRACKER.md"
+
+# Run the new problem once so TrackerAutoSync adds its row to TRACKER.md
+"$(dirname "${BASH_SOURCE[0]}")/run.sh" "$CLASS_NAME" > /dev/null

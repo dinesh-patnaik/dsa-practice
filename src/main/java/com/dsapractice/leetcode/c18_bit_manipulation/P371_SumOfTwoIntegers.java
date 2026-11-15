@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c18_bit_manipulation;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [371] SumOfTwoIntegers
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/sum-of-two-integers/
+ * Status: To Do
  */
 public class P371_SumOfTwoIntegers {
 
@@ -15,6 +18,7 @@ public class P371_SumOfTwoIntegers {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P371_SumOfTwoIntegers.class);
         Solution solution = new Solution();
         int a = 0;
         int b = 0;

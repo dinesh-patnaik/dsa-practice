@@ -1,11 +1,14 @@
 package com.dsapractice.leetcode.c07_trees;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
  * [230] KthSmallestElementInBST
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ * Status: To Do
  */
 public class P230_KthSmallestElementInBST {
 
@@ -17,6 +20,7 @@ public class P230_KthSmallestElementInBST {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P230_KthSmallestElementInBST.class);
         Solution solution = new Solution();
         TreeNode root = null;
         int k = 0;

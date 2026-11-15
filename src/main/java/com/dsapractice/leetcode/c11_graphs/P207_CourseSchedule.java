@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c11_graphs;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [207] CourseSchedule
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/course-schedule/
+ * Status: To Do
  */
 public class P207_CourseSchedule {
 
@@ -15,6 +18,7 @@ public class P207_CourseSchedule {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P207_CourseSchedule.class);
         Solution solution = new Solution();
         int numCourses = 0;
         int[][] prerequisites = new int[][]{};

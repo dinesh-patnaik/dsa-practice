@@ -1,11 +1,14 @@
 package com.dsapractice.leetcode.c07_trees;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 import com.dsapractice.leetcode.common.TreeNode;
 
 /**
  * [235] LowestCommonAncestorOfBST
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+ * Status: To Do
  */
 public class P235_LowestCommonAncestorOfBST {
 
@@ -17,6 +20,7 @@ public class P235_LowestCommonAncestorOfBST {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P235_LowestCommonAncestorOfBST.class);
         Solution solution = new Solution();
         TreeNode root = null;
         TreeNode p = null;

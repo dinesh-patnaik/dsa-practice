@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c11_graphs;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [261] GraphValidTree
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/graph-valid-tree/
+ * Status: To Do
  */
 public class P261_GraphValidTree {
 
@@ -15,6 +18,7 @@ public class P261_GraphValidTree {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P261_GraphValidTree.class);
         Solution solution = new Solution();
         int n = 0;
         int[][] edges = new int[][]{};

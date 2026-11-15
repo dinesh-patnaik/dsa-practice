@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c01_arrays;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [49] GroupAnagrams
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/group-anagrams/
+ * Status: To Do
  */
 public class P49_GroupAnagrams {
 
@@ -15,6 +18,7 @@ public class P49_GroupAnagrams {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P49_GroupAnagrams.class);
         Solution solution = new Solution();
         String[] strs = new String[]{};
         var result = solution.groupAnagrams(strs);

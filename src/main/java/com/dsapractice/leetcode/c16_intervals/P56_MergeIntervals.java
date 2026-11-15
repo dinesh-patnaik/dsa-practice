@@ -1,9 +1,12 @@
 package com.dsapractice.leetcode.c16_intervals;
 
+import com.dsapractice.leetcode.common.TrackerAutoSync;
+
 /**
  * [56] MergeIntervals
  * Difficulty: Medium
  * Source: https://leetcode.com/problems/merge-intervals/
+ * Status: To Do
  */
 public class P56_MergeIntervals {
 
@@ -15,6 +18,7 @@ public class P56_MergeIntervals {
     }
 
     public static void main(String[] args) {
+        TrackerAutoSync.sync(P56_MergeIntervals.class);
         Solution solution = new Solution();
         int[][] intervals = new int[][]{};
         var result = solution.merge(intervals);
